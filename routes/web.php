@@ -3,4 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PdfController;
 
-Route::get('/pdf', [PdfController::class, 'gerarPdf']);
+//Route::get('/pdf', [PdfController::class, 'gerarPdf']);
+
+
+Route::get('/gerar-pdf', [PdfController::class, 'generatePdf']);
