@@ -12,13 +12,24 @@
         .dados-cliente, .dados-fatura { margin-top: 20px; }
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         table, th, td { border: 1px solid #ccc; }
-        th, td { padding: 8px; text-align: left; }
-        th { background: #f5f5f5; }
-        .total { text-align: right; font-size: 16px; font-weight: bold; }
+        th { 
+            padding: 8px; 
+            text-align: left; 
+            background: #1976d2; 
+            color: #fff; 
+            font-weight: bold;
+        }
+        td { 
+            padding: 8px; 
+            text-align: left; 
+        }
+        tr:nth-child(even) { background: #e3f2fd; }
+        tr:nth-child(odd) { background: #fff; }
+        .total { text-align: right; font-size: 16px; font-weight: bold; color: #1976d2; }
         .rodape { margin-top: 40px; font-size: 12px; color: #888; text-align: center; }
     </style>
 </head>
-<body>
+<body> 
     <div class="fatura-box">
         <div class="topo">
             <div class="empresa">
